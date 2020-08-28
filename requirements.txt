@@ -27,17 +27,4 @@ soupsieve==2.0.1
 SQLAlchemy==1.3.19
 tqdm==4.48.2
 urllib3==1.25.10
-#Werkzeug==1.0.1
-# $ git log -S check_password_hash
-# commit d50618e3651ad5d4d3118e903a040b733c4d0233
-# Author: David Lord <davidism@gmail.com>
-# Date:   Tue Sep 17 12:16:57 2019 -0700
-# 
-#     remove deprecated top-level imports
-# $ git tag --contains d50618e3651ad5d4d3118e903a040b733c4d0233
-# 1.0.0
-# 1.0.0rc1
-# 1.0.1
-#
-# using previous version
 Werkzeug==0.16.1
