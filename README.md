@@ -14,6 +14,12 @@ Make sure you have Python 3.3 or higher, with pip and virtualenv installed (Ubun
 
 Now you should be good to go!
 
+# Running with Docker
+
+```bash
+docker build -t guampa . && docker run --rm -it -p 5000:5000 guampa
+```
+
 ## Deploying to a server
 Please see [DeployingWithApache](https://github.com/hltdi/guampa/wiki/DeployingWithApache) -- should work with other WSGI-enabled web servers too -- if you run it on another one (nginx, say), let us know!
 

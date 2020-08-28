@@ -1,7 +1,5 @@
 FROM python:3.8.5-buster
 
-# RUN git clone https://github.com/hltdi/guampa.git /app
-
 WORKDIR /app
 
 COPY requirements.txt .
